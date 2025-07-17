@@ -5,9 +5,9 @@ Netlist connectivity of different gates. Described with HD. Common input left an
 ## Floorplan using openlane
 After syn the floor plan is the  next step. Standard cells are not placed.
 Open up the config read for each stage, less ReadME shows what switches and what might be overwritten. The commands for package require openlane and prep-design picorv32a and run_synthesis, run_floorplan only seem to work when run one after another. Have to take priority from sky130A ex. .tcl file: When looking at less picrv32a floorplan.def
-You can see the area of the computer die. First 0 lower left x and left y and upright x upright y. calc area of die. Above shows 
+You can see the area of the computer die. First 0 lower left x and left y and upright x upright y. calc area of die. Above shows units
 
-units<img width="698" height="468" alt="Screenshot 2025-07-17 061307" src="https://github.com/user-attachments/assets/ff360cab-2d2f-4837-90f4-f42f5b79ed5d" />
+<img width="698" height="468" alt="Screenshot 2025-07-17 061307" src="https://github.com/user-attachments/assets/ff360cab-2d2f-4837-90f4-f42f5b79ed5d" />
 
 ## Decaps + IPs
 IP can be reused repeativly. Pre-placed, then not touched. Pre placed have to be surrounded by decoupling caps because of voltage drops due to large physical distance. Caps solve this issue by acting as a recharge meaning they "pick" voltage back up closer to 1.  
