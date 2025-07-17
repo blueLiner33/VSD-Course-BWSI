@@ -29,9 +29,11 @@ Made mistake of not running -interactive flag. Correct command is './flow.tcl -i
 Then <img width="651" height="221" alt="Screenshot 2025-07-16 115030" src="https://github.com/user-attachments/assets/18a99a82-2e61-41fa-a16d-ef028acedb27" />
 and 'prep -design picorv32a'
 Then run 'run_synthesis'
+Then run 'run_floorplan'
+Then run 'run_placement'
 
 ## Important files and how to view them
 Navigate to the right directory and the use ls to find files of interest. Than use less to look at them. Example of what a less file might look at <img width="698" height="468" alt="Screenshot 2025-07-17 061307" src="https://github.com/user-attachments/assets/afcc27bd-f6d0-4d66-a2bb-646ff18cc198" />
 
-
-
+To view the floorplan cd to floorplan dir which is after picorv32a/runs/[your run]/results/ . Then run' magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read../../tmp/merged.lef def read picorv32a.floorplan.def
+Should look like <img width="875" height="906" alt="Screenshot 2025-07-17 094650" src="https://github.com/user-attachments/assets/a2a5aad6-a01d-433e-9c36-28a1bedf8a91" />
