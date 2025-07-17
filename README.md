@@ -14,20 +14,20 @@ IP can be reused repeativly. Pre-placed, then not touched. Pre placed have to be
 All blocks need power. For 16 bus switch signals, when the caps discharge at the same time, it causes a ground bounce. Ground bounce is unfiltered noise, meaning that switches are unsure if it is one or zero. The solution is to have power from many places think of power lines being grid-like. 
 
 ## Die details
-utilization= netlist area/core area
-
-
+utilization= netlist area/core area 
+Utilization keep around 50% or 60%
+Aspect Ratio= Height of chip/ Width of chip
 
 # Commands
 Logic of commands is important most have to be run one after another.
 ## Order of important commands roughly
 <img width="1019" height="103" alt="Screenshot 2025-07-16 143323" src="https://github.com/user-attachments/assets/043cb7f0-b3c8-4619-82a6-2724bdfc9376" />
 <img width="1444" height="761" alt="Screenshot 2025-07-16 094410" src="https://github.com/user-attachments/assets/32e36aef-bd13-4d4f-8290-f7c00675608f" />
-Made mistake of not running -interactive flag. Correct command is ./flow.tcl -interactive
+Made mistake of not running -interactive flag. Correct command is './flow.tcl -interactive'
 Then <img width="651" height="221" alt="Screenshot 2025-07-16 115030" src="https://github.com/user-attachments/assets/18a99a82-2e61-41fa-a16d-ef028acedb27" />
 run package require openlane 0.9
-and -design picorv32a
-Then run [run_synthesis]
+and '-design picorv32a'
+Then run 'run_synthesis'
 ## Important files and how to view them
 Navigate to the right directory and the use ls to find files of interest. Than use less to look at them. Example of what a less file might look at <img width="698" height="468" alt="Screenshot 2025-07-17 061307" src="https://github.com/user-attachments/assets/afcc27bd-f6d0-4d66-a2bb-646ff18cc198" />
 
