@@ -22,12 +22,12 @@ Aspect Ratio= Height of chip/ Width of chip
 Logic of commands is important most have to be run one after another.
 
 ## Order of important commands roughly
+run package require openlane 0.9
 <img width="1019" height="103" alt="Screenshot 2025-07-16 143323" src="https://github.com/user-attachments/assets/043cb7f0-b3c8-4619-82a6-2724bdfc9376" />
 <img width="1444" height="761" alt="Screenshot 2025-07-16 094410" src="https://github.com/user-attachments/assets/32e36aef-bd13-4d4f-8290-f7c00675608f" />
 Made mistake of not running -interactive flag. Correct command is './flow.tcl -interactive'
 Then <img width="651" height="221" alt="Screenshot 2025-07-16 115030" src="https://github.com/user-attachments/assets/18a99a82-2e61-41fa-a16d-ef028acedb27" />
-run package require openlane 0.9
-and '-design picorv32a'
+and 'prep -design picorv32a'
 Then run 'run_synthesis'
 
 ## Important files and how to view them
