@@ -19,6 +19,14 @@ All blocks need power. For 16 bus switch signals, when the caps discharge at the
 utilization= netlist area/core area 
 Utilization keep around 50% or 60%
 Aspect Ratio= Height of chip/ Width of chip
+Logic system>floor_planning>placement>CTS>Routing
+
+## Placement
+The parts of chips like 'and', flip flops are represented by blocks or rectanglers on a chip. Based on the diagram put the blocks close to each other when connected. Then close to pins that are relvant to the blocks. To have signal intergerty need something to help signal reach the block, use repeaters(buffers). Based on distance inside of chip. Ones with high frequency place close togther. After check placement. Want to try to keep them close togther.
+
+## Clocks 
+Last stage Static Timing analysis is the last step and tells the max frequency.
+All blocks need to recieve the clock at the same time.
 
 # Commands
 Logic of commands is important most have to be run one after another.
