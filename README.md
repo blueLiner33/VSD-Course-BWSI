@@ -32,8 +32,20 @@ All blocks need to receive the clock at the same time.
 They are kept in the Library. Some examples are Latch, DFF, and Inverter. The same function cell comes in different sizes and with different features. A higher threshold needs more time to shift. 
 
 ## Timing
+slew_low_rise_thr defines points to low point 20% or 30%
+slew_high_rise_thr 20% 
+slew is foudn time difference between the two.
+slew_low_fall_thr bottom 20% other wave form same with slew_high_fall_thr
+used to find slew
+in_rise_thr for delay and one out point to calc delay
+out_rise_thr out waveform point find delay 
+in_fall_thr delay for fall waveform
+out_fall_thr delay for fall 50% roughly
 
+time(out_thr)-time(in_thr)=delay
+negative delay poor choice of threshold point. 
 
+transition time high-low for the fall (slew)
 ### Cell Design Flow
 
 #### Inputs
