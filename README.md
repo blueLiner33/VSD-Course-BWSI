@@ -30,13 +30,34 @@ All blocks need to receive the clock at the same time.
 
 ## Standard cells
 They are kept in the Library. Some examples are Latch, DFF, and Inverter. The same function cell comes in different sizes and with different features. A higher threshold needs more time to shift. 
+
+## Timing
+
+
 ### Cell Design Flow
+
 #### Inputs
 Each cell has to go through the cell design flow. The inputs to design it are PDKs, foundry rules files (DRC&LVS, SPICE models), and user plus library specs. The user has to cell that fits in height, and supply voltage for the chip. Can also be based on layer requirements. 
+
 #### Design Steps
 Circuit desing have to get certain specs and based on SPICE simulations. I[drain_pmos]+I[drain_nmos]=0
+Model the equation with pmos and nmos.
+Then nmos/pmos network graph. Then find Euler's path(path traced only once). Then draw a stick diagram out of it. Into a proper layout next in the next step..
 
+#### Outputs
+CDL(circuit description language)
+Take out the characteristics. Then get the timing of the cell.
 
+#### characterization 
+1. Read model files
+2. Read SPICE netlist
+3. Recognize the behavior of buffer
+4. Read the subcircuit of the inverter
+5. Connect power
+6. Apply simiulus
+7. Provide necessary output capacitance
+8. Provide necessary simulation command
+feed this into GUNA
 
 # Commands
 The logic of commands is important; most have to be run one after another.
