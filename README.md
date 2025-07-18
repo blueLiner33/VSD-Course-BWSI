@@ -18,18 +18,28 @@ All blocks need power. For 16 bus switch signals, when the caps discharge at the
 ## Die details
 utilization= netlist area/core area 
 Utilization keep around 50% or 60%
-Aspect Ratio= Height of chip/ Width of chip
+Aspect Ratio =  Height of chip/ Width of chip
 Logic system>floor_planning>placement>CTS>Routing
 
 ## Placement
-The parts of chips like 'and', flip flops are represented by blocks or rectanglers on a chip. Based on the diagram put the blocks close to each other when connected. Then close to pins that are relvant to the blocks. To have signal intergerty need something to help signal reach the block, use repeaters(buffers). Based on distance inside of chip. Ones with high frequency place close togther. After check placement. Want to try to keep them close togther.
+The parts of chips like 'and', flip flops are represented by blocks or rectangles on a chip. Based on the diagram, put the blocks close to each other when connected. Then, close to the pins relevant to the blocks. To have signal integrity, you need something to help signal reach the block; use repeaters(buffers). Based on the distance inside the chip. Ones with high frequency place close together. After checking the placement. Want to try to keep them close together.
 
 ## Clocks 
-Last stage Static Timing analysis is the last step and tells the max frequency.
-All blocks need to recieve the clock at the same time.
+The last stage, Static Timing analysis, is the last step and tells the max frequency.
+All blocks need to receive the clock at the same time.
+
+## Standard cells
+They are kept in the Library. Some examples are Latch, DFF, and Inverter. The same function cell comes in different sizes and with different features. A higher threshold needs more time to shift. 
+### Cell Design Flow
+#### Inputs
+Each cell has to go through the cell design flow. The inputs to design it are PDKs, foundry rules files (DRC&LVS, SPICE models), and user plus library specs. The user has to cell that fits in height, and supply voltage for the chip. Can also be based on layer requirements. 
+#### Design Steps
+Circuit desing have to get certain specs and based on SPICE simulations. I[drain_pmos]+I[drain_nmos]=0
+
+
 
 # Commands
-Logic of commands is important most have to be run one after another.
+The logic of commands is important; most have to be run one after another.
 
 ## Order of important commands roughly
 run package require openlane 0.9
