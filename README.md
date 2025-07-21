@@ -31,6 +31,9 @@ All blocks need to receive the clock at the same time.
 ## Standard cells
 They are kept in the Library. Some examples are Latch, DFF, and Inverter. The same function cell comes in different sizes and with different features. A higher threshold needs more time to shift. 
 
+## CMOS inverter
+switching threshold = VM
+vm = vin = vout
 ## Timing
 slew_low_rise_thr defines points to low point 20% or 30%
 slew_high_rise_thr 20% 
@@ -48,6 +51,11 @@ transition time high-low for the fall (slew)
 
 ## Spice Deck
 need to figure out parts values
+PMOS>NMOS
+PMOS 2 or 3 times bigger
+Then need to find nodes and it in reference to other nodes what parts are between them
+Need to name nodes
+
 ### Cell Design Flow
 
 #### Other
