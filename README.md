@@ -111,6 +111,11 @@ then follow the screen shot
 
 <img width="909" height="980" alt="Screenshot 2025-07-21 055140" src="https://github.com/user-attachments/assets/67bef143-836a-44b9-aa23-f17a8aad916c" />
 
+Then run in your vsdstdcelldesign dir run magic -T sky130A.tech sky_inv.mag &
+should see something like 
+
+<img width="954" height="1189" alt="Screenshot 2025-07-21 055537" src="https://github.com/user-attachments/assets/56faf70e-00cd-446d-8980-86ac25c1d302" />
+
 ## Important files and how to view them
 Navigate to the right directory and the use ls to find files of interest. Than use less to look at them. Example of what a less file might look at
 
