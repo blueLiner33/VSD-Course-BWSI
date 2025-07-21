@@ -176,6 +176,15 @@ should see something like
 
 <img width="954" height="1189" alt="Screenshot 2025-07-21 055537" src="https://github.com/user-attachments/assets/56faf70e-00cd-446d-8980-86ac25c1d302" />
 
+extract spice
+using the command extract all in spice terminal
+then do ext2spice cthresh 0 rthesh 0
+check if spice was created in place you just were in cmd
+in format drain gate source substrate
+then make file look like
+<img width="773" height="490" alt="Screenshot 2025-07-21 083526" src="https://github.com/user-attachments/assets/fcae9242-8d28-4f15-983c-fc5f9e81fff8" />
+
+run nspice '+' NAMEOFYOURFILE
 ## Important files and how to view them
 Navigate to the right directory and the use ls to find files of interest. Than use less to look at them. Example of what a less file might look at
 
