@@ -207,6 +207,8 @@ make copy of role *poly short hand
 DRC check to make sure nothing wrong was changed
 challenging error need boolan operators applyed in sequence it is an error
 
+to download lab files wget http://opencircuitdesign.com/open_pdks/archive/drc_tests.tgz
+extract tar xfz drc_tests.tgz
 #### Helpful tools for skywater
 http://opencircuitdesign.com/magic/
 https://skywater-pdk.readthedocs.io/en/main/
