@@ -59,6 +59,22 @@ PMOS 2 or 3 times bigger
 Then need to find nodes and it in reference to other nodes what parts are between them
 Need to name nodes
 
+## 16-mask cmos process
+selecting a substrate: doping is adding something else to a substrate
+active region see n type and p type mosfets
+
+creating active region for transistors 
+need to clear an area with pocjets for active sites
+then put p substrate then oxide than photoresist 
+mask1 ex is layer in custom layer is a mask
+mask is protection area is from light by using the mask
+then remove mask
+photoresist is stay proection layer for following steps of deprestion.
+si3n4 is etched off then remove photoresist.
+then place into oxidation furance to glow more oxidation
+then that creates an isolation area called locos(local oxidation of silicon.) parts that are where transistors go are called birds beak. 
+
+N-well and p-well formation.
 ### Cell Design Flow
 
 #### Other
