@@ -63,7 +63,7 @@ Need to name nodes
 selecting a substrate: doping is adding something else to a substrate
 active region see n type and p type mosfets
 
-creating active region for transistors 
+#### creating active region for transistors 
 need to clear an area with pocjets for active sites
 then put p substrate then oxide than photoresist 
 mask1 ex is layer in custom layer is a mask
@@ -74,7 +74,51 @@ si3n4 is etched off then remove photoresist.
 then place into oxidation furance to glow more oxidation
 then that creates an isolation area called locos(local oxidation of silicon.) parts that are where transistors go are called birds beak. 
 
-N-well and p-well formation.
+#### N-well and p-well formation.
+p well is done using boron diffused by ion implantation
+phosphorous is n-well using ion implantation
+
+#### formation of 'gate'
+two things that control Vt are Na doping concentration and Cox odixde capacitance
+yet again photresists and mask
+for boron lower energy so just at surface in right area
+voltage controled aslow low just to certain level
+then fix the oxide using hydrofluric acid and regrow oxide
+Put the polysilicon layer, then dope with more impurities to have low resistance. 
+
+#### lightly doped drain formation 
+Need p+, p-, N is what profile you want. 
+for other side N+,n-,p
+Why do you want a profile
+2 reasons hot e- effect
+short channel effect
+have to protect slightly doped thick layer on whole structure and leave things on side walls
+
+#### source and drain formation
+thin screen oxide to avoid channeeling during implants
+dope p well side with arsenic 
+then same with p- implant and boron is implanted
+then put into high-temperature furnace. more into n and p well, high temperature annealing. 
+
+#### setps to form contacts and interconnects
+titanium and intercunties using sputtering
+heat wafer
+form TiSi2
+TiN for local communication
+Then TiN is etched off using RCA cleaning
+
+##### Higher level metal formation 
+put SiO2 layer doped with boron or phosphorus 
+Then chemically to get a flat layer using CMP 
+Then deposite TiN
+build contact holes acess to top layers. 
+Then deposite W layer then make it flat usign CMP
+Al layer deposition
+plasma etched so metal is connect to top using Al
+deposite So2 gain then build contact holes again
+deposite TiN then W
+Then if last level then use something to protect level then build last conact holes up.
+
 ### Cell Design Flow
 
 #### Other
