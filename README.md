@@ -44,9 +44,14 @@ out_fall_thr delay for fall 50% roughly
 
 time(out_thr)-time(in_thr)=delay
 negative delay poor choice of threshold point. 
-
 transition time high-low for the fall (slew)
+
+## Spice Deck
+need to figure out parts values
 ### Cell Design Flow
+
+#### Other
+Can change varibles to change part of design flow
 
 #### Inputs
 Each cell has to go through the cell design flow. The inputs to design it are PDKs, foundry rules files (DRC&LVS, SPICE models), and user plus library specs. The user has to cell that fits in height, and supply voltage for the chip. Can also be based on layer requirements. 
