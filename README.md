@@ -34,6 +34,9 @@ They are kept in the Library. Some examples are Latch, DFF, and Inverter. The sa
 ## CMOS inverter
 switching threshold = VM
 vm = vin = vout
+supply a pulse to see what happens
+try to find the rise delay and find fall delay. FInd poitn where output is falling and take 50%
+
 ## Timing
 slew_low_rise_thr defines points to low point 20% or 30%
 slew_high_rise_thr 20% 
@@ -101,6 +104,12 @@ and 'prep -design picorv32a'
 Then run 'run_synthesis'
 Then run 'run_floorplan'
 Then run 'run_placement'
+
+Next important one in day 3 is
+git clone https://www.bing.com/search?q=jose-vstdllstandard%20cells&qs=n&form=QBRE&sp=-1&lq=0&pq=jose-vstdllstandard%20cells&sc=5-25&sk=&cvid=B38878DF01D5462EA04B7C374C473050
+then follow the screen shot
+
+<img width="909" height="980" alt="Screenshot 2025-07-21 055140" src="https://github.com/user-attachments/assets/67bef143-836a-44b9-aa23-f17a8aad916c" />
 
 ## Important files and how to view them
 Navigate to the right directory and the use ls to find files of interest. Than use less to look at them. Example of what a less file might look at
