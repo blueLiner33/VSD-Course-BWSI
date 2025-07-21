@@ -182,9 +182,11 @@ then do ext2spice cthresh 0 rthesh 0
 check if spice was created in place you just were in cmd
 in format drain gate source substrate
 then make file look like
-<img width="773" height="490" alt="Screenshot 2025-07-21 083526" src="https://github.com/user-attachments/assets/fcae9242-8d28-4f15-983c-fc5f9e81fff8" />
-
+<img width="1143" height="609" alt="Screenshot 2025-07-21 085853" src="https://github.com/user-attachments/assets/abd6b493-9275-45d2-b32a-bf07e00a2108" />
 run nspice '+' NAMEOFYOURFILE
+can plot using plot y vs time a
+<img width="407" height="343" alt="Screenshot 2025-07-21 090404" src="https://github.com/user-attachments/assets/406ff9b1-3cb9-413b-8fc8-f117a7bd6e54" />
+
 ## Important files and how to view them
 Navigate to the right directory and the use ls to find files of interest. Than use less to look at them. Example of what a less file might look at
 
@@ -197,6 +199,19 @@ Should look like
 can look at layers on side and select different ones.
 Use what tell what the highlighted portion is
 connection between layers press s three times
+via is a drevied layer
+draw large area of contact with p key or paint
+cif sec VIA2 represent mask layer 
+measure with key b or box
+make copy of role *poly short hand
+DRC check to make sure nothing wrong was changed
+challenging error need boolan operators applyed in sequence it is an error
+
+#### Helpful tools for skywater
+http://opencircuitdesign.com/magic/
+https://skywater-pdk.readthedocs.io/en/main/
+### ngspice
+plot y vs time a
 <img width="875" height="906" alt="Screenshot 2025-07-17 094650" src="https://github.com/user-attachments/assets/a2a5aad6-a01d-433e-9c36-28a1bedf8a91" />
 
 To zoom in on image right than left mouse click then press z. Hoover over and press s to select object. Then type 'what into selection window and it will show layer.
