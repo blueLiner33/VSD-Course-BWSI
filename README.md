@@ -212,6 +212,7 @@ extract tar xfz drc_tests.tgz
 <img width="2381" height="1501" alt="Screenshot 2025-07-21 112823" src="https://github.com/user-attachments/assets/7217b0ba-4721-46a5-8333-90a363a235c9" />
 <img width="678" height="510" alt="Screenshot 2025-07-21 112230" src="https://github.com/user-attachments/assets/3d563cf8-abbc-4950-acbb-1df641258a89" />
 
+tracks are where the metal is
 #### Helpful tools for skywater
 http://opencircuitdesign.com/magic/
 https://skywater-pdk.readthedocs.io/en/main/
