@@ -1,1 +1,12 @@
-
+#converting info to track
+track are for every metal layer
+ports need to be on insrection of horizontal and vertical tracks
+press g for grid and see if they intersect
+width of standard cell whole multiple of the x width
+port does mean anything to magic
+extract lef file then ports are what the pins are
+power ground atttach to metal 1
+a any y have to atach to local
+have define purpuse of each port
+using port class output
+port use singal
