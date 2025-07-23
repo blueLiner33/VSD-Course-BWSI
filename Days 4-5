@@ -13,3 +13,4 @@ port use signal
 
 Firest command
 magic -T sky130_vsdinv.mag &
+write lef '''creates a left file for given file
