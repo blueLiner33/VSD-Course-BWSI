@@ -9,4 +9,7 @@ power ground atttach to metal 1
 a any y have to atach to local
 have define purpuse of each port
 using port class output
-port use singal
+port use signal
+
+Firest command
+magic -T sky130_vsdinv.mag &
