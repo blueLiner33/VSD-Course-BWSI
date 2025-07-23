@@ -193,7 +193,7 @@ Navigate to the right directory and the use ls to find files of interest. Than u
 <img width="698" height="468" alt="Screenshot 2025-07-17 061307" src="https://github.com/user-attachments/assets/afcc27bd-f6d0-4d66-a2bb-646ff18cc198" />
 
 To view the floorplan cd to floorplan dir which is after picorv32a/runs/[your run]/results/ . Then run' magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read../../tmp/merged.lef def read picorv32a.floorplan.def
-
+<img width="875" height="906" alt="Screenshot 2025-07-17 094650" src="https://github.com/user-attachments/assets/a2a5aad6-a01d-433e-9c36-28a1bedf8a91" />
 
 ### Skywater
 can look at layers on side and select different ones.
@@ -217,6 +217,6 @@ http://opencircuitdesign.com/magic/
 https://skywater-pdk.readthedocs.io/en/main/
 ### ngspice
 plot y vs time a
-<img width="875" height="906" alt="Screenshot 2025-07-17 094650" src="https://github.com/user-attachments/assets/a2a5aad6-a01d-433e-9c36-28a1bedf8a91" />
+
 
 To zoom in on image right than left mouse click then press z. Hoover over and press s to select object. Then type 'what into selection window and it will show layer.
