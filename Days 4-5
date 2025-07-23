@@ -11,6 +11,10 @@ have define purpuse of each port
 using port class output
 port use signal
 
-Firest command
+First
+in tkcon main window grid 0.46um 0.34um 023um 0.17um then save sky130_vsdinv.mag
 magic -T sky130_vsdinv.mag &
 write lef '''creates a left file for given file
+
+then find place of lef file and cp <file_name> <location of something/picorv32a/src/
+then have to change config.tcl
