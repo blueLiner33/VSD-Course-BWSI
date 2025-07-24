@@ -1,3 +1,4 @@
+DAY 4
 #converting info to track
 ##spice notes
 track are for every metal layer
@@ -29,4 +30,34 @@ can add -tag(keep going with) -overwrite to prep -design picorv32a along with 2 
 have to correct slack voilatons 
 
 #delay tables
+assumtions each node driving same load and that c1=c2=c3=c3=25F
+indical buffer at same level. 
 
+the load at the output varies it is not constant(capacitance)
+verying input transations different delays
+#delay table
+output load and input slew was collected for each buffer
+one buffer of fixed size and threshold voltage delay was caluclated for each and every cell.
+each kind of gate
+buffer size 1 mean p mos and nmos of size 2 defined size that is different.
+change size change resistance
+use it like a look up table
+build equation to find values for given problem
+delay find of first cell than find it of second cell
+##usage
+want to calculate the skrew
+output of buffer goes into next buffer but need second transition table for one going into another
+in example skrew is 0. branching logi. but if buffer and trunk of tree because it is varying the delay values 
+would be different meaning different delay frequency. meaning non 0 skrew value
+the small differene at one level will grow to a very big problem
+#lab steps
+wns is all the slack
+what to strike balance between chip area and delay
+can make changes like set $::env(SYNTH_STRATEGY)
+line between area and time
+can view chip area in synth then slack decreases
+run_placement look at OVFL want to be close to 0
+do same magic command as early to look at chip placement from different day
+#timing analysis
+
+Day 5
