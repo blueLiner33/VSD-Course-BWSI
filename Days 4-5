@@ -59,5 +59,9 @@ can view chip area in synth then slack decreases
 run_placement look at OVFL want to be close to 0
 do same magic command as early to look at chip placement from different day
 #timing analysis
-
+T = time(clock period)
+theta = combinational delay
+flip flop have mux meaning delay
+mux1 delay is set up time for it to settle
+then becomes theata<(T-S_
 Day 5
