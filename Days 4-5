@@ -1,4 +1,5 @@
 #converting info to track
+##spice notes
 track are for every metal layer
 ports need to be on insrection of horizontal and vertical tracks
 press g for grid and see if they intersect
@@ -11,6 +12,7 @@ have define purpuse of each port
 using port class output
 port use signal
 
+#Commands
 First
 in tkcon main window grid 0.46um 0.34um 023um 0.17um then save sky130_vsdinv.mag
 magic -T sky130_vsdinv.mag &
@@ -18,3 +20,12 @@ write lef '''creates a left file for given file
 
 then find place of lef file and cp <file_name> <location of something/picorv32a/src/
 then have to change config.tcl
+
+then edit config file to look right like the following/
+want to use both lef files
+so package require openlane 0.9
+can add -tag(keep going with) -overwrite to prep -design picorv32a along with 2 .lef files
+
+have to correct slack voilatons 
+
+#delay tables
