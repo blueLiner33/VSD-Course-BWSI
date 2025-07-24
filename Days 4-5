@@ -3,7 +3,7 @@
 track are for every metal layer
 ports need to be on insrection of horizontal and vertical tracks
 press g for grid and see if they intersect
-width of standard cell whole multiple of the x width
+width of standard cell, whole multiple of the x width
 port does mean anything to magic
 extract lef file then ports are what the pins are
 power ground atttach to metal 1
@@ -29,3 +29,4 @@ can add -tag(keep going with) -overwrite to prep -design picorv32a along with 2 
 have to correct slack voilatons 
 
 #delay tables
+
