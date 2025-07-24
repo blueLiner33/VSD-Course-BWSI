@@ -50,7 +50,7 @@ output of buffer goes into next buffer but need second transition table for one 
 in example skrew is 0. branching logi. but if buffer and trunk of tree because it is varying the delay values 
 would be different meaning different delay frequency. meaning non 0 skrew value
 the small differene at one level will grow to a very big problem
-#lab steps
+# lab steps
 wns is all the slack
 what to strike balance between chip area and delay
 can make changes like set $::env(SYNTH_STRATEGY)
@@ -63,5 +63,16 @@ T = time(clock period)
 theta = combinational delay
 flip flop have mux meaning delay
 mux1 delay is set up time for it to settle
-then becomes theata<(T-S_
+then becomes theata<(T-S)
+clocks not perfect meaning jitter
+set up time analizej
+now clock delay theta<(T-S-SU)
+max set up time delay has to be all wire delays and each module delay
+# timeing anaylze
+look at them in different
+need to look up capacinty and then change cap load based on it.
+vim pre_sta.conf 
+config where timing analysis is being done
+
+
 Day 5
