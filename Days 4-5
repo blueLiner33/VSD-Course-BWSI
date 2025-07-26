@@ -71,8 +71,38 @@ max set up time delay has to be all wire delays and each module delay
 # timeing anaylze
 look at them in different
 need to look up capacinty and then change cap load based on it.
+read sdc file 
+find pin A and Cap load
+change the cap value in the config file
 vim pre_sta.conf 
 config where timing analysis is being done
+sta pre_sta.conf
+delay of cell is inmport slew and capacinenty of output
+set ::even(SYNTH_MAX_FANOUT)
+report_net -connections _14635
+run_synthesis again. SLack has dropped again
+help replace cell
+report_checks -fields {net cap slew input_pins} -digits 4
 
+replace_cell _44322_ sky130_fd_sc_hd_buf_4
+report_checks -fields {net cap slew input_pins} -digits 4
 
+report_check -from _50144_ -to _50075_ -through _44322_
+need to make slack a postive value
+report_tns
+report_wns
+# clock tree synthesis
+time difference between reaching point is t2-t1=skew
+has to be value close to 0
+edge tree take distance to all other points 
+then pick mid point between them
+do midpoint strategy almost similar skew value close to 0
+reachs through repeaters
+nee buffers and they have delay
+## clock net sharing
+two pormblems 
+glich logic high on reset pin and reset mem
+shielding breaking coupling caps
+impact of crosstalk delta delay skrew
+thats why shield clock nets
 Day 5
