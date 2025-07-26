@@ -105,4 +105,5 @@ glich logic high on reset pin and reset mem
 shielding breaking coupling caps
 impact of crosstalk delta delay skrew
 thats why shield clock nets
+
 Day 5
