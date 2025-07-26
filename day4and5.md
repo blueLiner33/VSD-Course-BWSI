@@ -105,5 +105,19 @@ glich logic high on reset pin and reset mem
 shielding breaking coupling caps
 impact of crosstalk delta delay skrew
 thats why shield clock nets
-
+## sttup timing
+delta 1 to rerach from clk end to launch flop. clk edge to capture flop is delta 2
+delta1-delta2 abslute value is screw
+needs to be in equation (theat+delta1)<(T+delta2)-S-SU
+data requried time is right hand side of <. while other side is data arrival time
+not voilting able to work
+slack should be +ve or '0'
+theta > H meaning 
+hold is data in capture flop until sent out of capture flop
+theat+1+2>H+1+3+4
+changes to thata+delta1>H+delta2+HU
+want uncertainty as a low value. 
+right is data rquired time and left is data arrival time.
+## openroad
+timing anaylis
 Day 5
