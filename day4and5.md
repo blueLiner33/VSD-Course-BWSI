@@ -121,3 +121,6 @@ right is data rquired time and left is data arrival time.
 ## openroad
 timing anaylis
 Day 5
+<img width="1178" height="438" alt="Screenshot 2025-07-26 210646" src="https://github.com/user-attachments/assets/1aa966dc-1fa8-4d99-88c6-46b14d6b2eb5" />
+<img width="944" height="445" alt="Screenshot 2025-07-26 191101" src="https://github.com/user-attachments/assets/1cf06bd2-cbaf-4126-9620-3b84b5728ce6" />
+<img width="962" height="355" alt="Screenshot 2025-07-26 184744" src="https://github.com/user-attachments/assets/01847d73-e6b5-49c0-bdfa-7bcdd36db625" />
