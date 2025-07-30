@@ -212,6 +212,9 @@ to download lab files wget http://opencircuitdesign.com/open_pdks/archive/drc_te
 extract tar xfz drc_tests.tgz
 <img width="2381" height="1501" alt="Screenshot 2025-07-21 112823" src="https://github.com/user-attachments/assets/7217b0ba-4721-46a5-8333-90a363a235c9" />
 <img width="678" height="510" alt="Screenshot 2025-07-21 112230" src="https://github.com/user-attachments/assets/3d563cf8-abbc-4950-acbb-1df641258a89" />
+<img width="788" height="512" alt="Screenshot 2025-07-30 091652" src="https://github.com/user-attachments/assets/c6f4ce8a-3d1f-471c-8cbf-4b69ffe8b423" />
+<img width="759" height="505" alt="Screenshot 2025-07-30 090539" src="https://github.com/user-attachments/assets/d66566d7-14ba-45f8-a995-fe64f41a663a" />
+<img width="955" height="662" alt="Screenshot 2025-07-30 090512" src="https://github.com/user-attachments/assets/34dcfb1a-0061-4535-a654-c32f53683c72" />
 
 tracks are where the metal is
 #### Helpful tools for skywater
